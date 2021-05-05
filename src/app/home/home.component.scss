@@ -1,0 +1,37 @@
+@import "/src/app/app.component.scss";
+
+.home {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  .hello-message {
+    .hello-world {
+      color: $purple;
+      display: flex;
+      font-size: 30px;
+      font-weight: bold;
+
+      .middle-message {
+        color: white;
+      }
+    }
+
+    h1 {
+      display: flex;
+      font-size: 86px;
+      line-height: 86px;
+      margin: 0;
+
+      .my-name {
+        color: $purple;
+        margin-left: 10px;
+      }
+    }
+
+    .developer-title {
+      color: #6f6f72;
+      font-size: 24px;
+    }
+  }
+}

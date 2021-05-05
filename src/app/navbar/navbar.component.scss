@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  li {
+    padding: 10px 30px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #111111;
+    }
+  }
+}
