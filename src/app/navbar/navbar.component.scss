@@ -1,14 +1,40 @@
-.navbar {
+@import '/src/app/app.component.scss';
+
+.navbar-container {
   display: flex;
-  justify-content: center;
-  list-style-type: none;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
 
-  li {
-    padding: 10px 30px;
-    cursor: pointer;
+  .menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  
+    li {
+      padding: 10px 30px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #111111;
+        color: $purple;
+      }
+    }
 
-    &:hover {
-      background-color: #111111;
+    .social-icon {
+      font-size: 1.2rem;
+      color: $purple;
+
+      transition-duration: 0.3s;
+      transform: scaleY(1) scaleX(1);
+      
+      &:hover {
+        background-color: none;
+        color: white;
+
+        transition-duration: 0.3s;
+        transform: scaleY(1.3) scaleX(1.3)
+      }
     }
   }
 }
