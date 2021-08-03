@@ -34,4 +34,14 @@
       font-size: 24px;
     }
   }
+
+  .picture {
+    .coder-img {
+      max-width: 800px;
+
+      @media (max-width: 800px) {
+        max-width: 400px;
+      }
+    }
+  }
 }
