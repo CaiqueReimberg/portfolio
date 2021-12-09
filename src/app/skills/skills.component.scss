@@ -1,0 +1,43 @@
+.skills-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6rem 0;
+
+  .selectors {
+    display: block;
+
+    .selector {
+      background-color: #25262a;
+      border-radius: 1rem;
+      height: 120px;
+      max-width: 400px;
+      padding: 20px;
+      margin: 20px 0;
+      cursor: pointer;
+
+      transition-duration: 0.3s;
+      transform: scaleY(1) scaleX(1);
+
+      &:hover {
+        color: #78fab1;
+        transition-duration: 0.3s;
+        transform: scaleY(1.1) scaleX(1.1);
+      }
+
+      p {
+        color: #6f6f72;
+      }
+    }
+  }
+
+  .info {
+    text-align: center;
+    display: block;
+    max-width: 400px;
+  }
+
+  // background-color: #65617D;
+}
