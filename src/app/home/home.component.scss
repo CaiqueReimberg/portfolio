@@ -7,13 +7,13 @@
 
   .hello-message {
     .hello-world {
-      color: $purple;
+      color: $fifthy-color;
       display: flex;
       font-size: 30px;
       font-weight: bold;
 
       .middle-message {
-        color: white;
+        color: $thirdy-color;
       }
     }
 
@@ -24,13 +24,13 @@
       margin: 0;
 
       .my-name {
-        color: $purple;
+        color: $fifthy-color;
         margin-left: 10px;
       }
     }
 
     .developer-title {
-      color: #6f6f72;
+      color: $fifthy-color;
       font-size: 24px;
     }
   }

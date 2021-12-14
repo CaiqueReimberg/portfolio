@@ -1,6 +1,6 @@
 <div class="application">
-  <app-navbar></app-navbar>
+  <app-navbar (itemSelected)="scrollTo($event)"></app-navbar>
   <router-outlet></router-outlet>
-  <app-skills></app-skills>
+  <app-skills id="skills"></app-skills>
 
 </div>
